@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand em-text" href="index.html">Lav namestaj</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Pocetna</a></li>
+            <li><a href="cenovnik.html">Cenovnik</a></li>
+			<li><a href="galerija.html">Galerija</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <section id="title-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Kontaktirajte nas</h1>
+				<iframe id="mapa" width="1500" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Milutin%20Milankovica%2015%2C%20Beograd+(Title)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 20px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;"><small style="line-height: 1.8;font-size: 8px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/es/">Embedgooglemaps.com/es/</a> & <a href="http://www.stedentrippers.nl/berlijn.html">Stedentrippers(*)</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+         
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form>
+              <div class="form-group">
+                <label>Ime</label>
+                <input type="text" class="form-control" placeholder="Unesite vase ime" required>
+              </div>
+               <div class="form-group">
+                <label>Prezime</label>
+                <input type="text" class="form-control" placeholder="Unesite vase prezime" required>
+				<script>
+				function proveri(forma)
+				{
+						  if ((forma.email.value.indexOf('@') == -1) ||  (forma.usloviKoriscenja.checked == false))
+				{
+					alert('Podaci nisu ispravno uneti');
+					return false;
+				}
+						   return true;
+				}
+</script>
+              </div>
+              <div class="form-group">
+                <label>Email address</label>
+                <input type="email" class="form-control" placeholder="Unesite vas email" required>
+              </div>
+              <div class="form-group">
+                <label>Poruka</label>
+                <textarea class="form-control" placeholder="Unesite vas komentar ili poruku" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-default">Potvrdi</button>
+            </form>
+		 </div>
+          <div class="col-md-4">
+            <img src="img/precica.jpg" class="demo">
+            <h2>9 jeftinih ideja za osveženje enterijera</h2>
+            <p>Za osveženje vašeg životnog i radnog prostora, ne treba vam mnogo novca. Važno je da zapamtite da se do idealnog imidža neke prostorije dolazi stalnim promenama i metodom pokušaja i greške. A čak i kad dođete do idealne kombinacije, ona će vam verovatno posle nekog vremena dosaditi ili izaći iz mode. Zato, hrabro u eksperimente! Dokažite da sa malom svotom novca, pomnoženom brojnim maštovitim kombinacijama, možete kreirati dom u kome ćete se osećati kao milioner..</p>
+            <a href="https://zena.blic.rs/porodica/9-jeftinih-ideja-za-osvezenje-enterijera/wsxts6j"><button>Procitaj vise</button></a>
+          </div>  
+        </div>
+      </div>
+    </section>
+	<section id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h1>Lav Namestaj</h1>
+            <ul>
+              <li> <i class="glyphicon glyphicon-earphone"></i>  011 11123 23 33</li>
+              <li> <i class="glyphicon glyphicon-phone-alt"></i> 064 333 11 22</li>
+              <li> <i class="glyphicon glyphicon-comment"></i>lav@office.com</li>
+              <li> <i class="glyphicon glyphicon-globe"></i>Milutina Milankovica 15, Beograd, Srbija</li>
+			  <li> <i class="	glyphicon glyphicon-time"></i>Pon-ned 08:00 - 21:00</li>
+			  <a href="https://www.facebook.com/" target="new"><img src="img/facebook.jpg" alt="facebook" width="150" height="50" class="brend-logo" /></a> 
+				<a href="https://www.instagram.com/?hl=sr" target="new"><img src="img/instagram.jpg" alt="Instagram" width="140" height="50" class="brend-logo"  /></a> 
+            </ul>
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+            <img class="big-logo" src="img/logo2.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+     <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+			<center>Design by Menadzeri FON</center>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

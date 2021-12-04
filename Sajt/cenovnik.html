@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cenovnik</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand em-text" href="index.html">Lav namestaj</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Pocetna</a></li>
+            <li><a href="cenovnik.html">Cenovnik</a></li>
+			<li><a href="galerija.html">Galerija</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <section id="title-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Cenovnik</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about">
+      <div class="container">
+       <div class="container">
+  <h2>Ugaone Garniture</h2>          
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Naziv</th>
+        <th>Bez razvlacenja</th>
+        <th>Trosed</th>
+		<th>Dvosed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ugaona Vasilije</td>
+        <td>65000 RSD</td>
+        <td>1200000 RSD</td>
+		<td>1600000 RSD</td>
+      </tr>
+      <tr>
+        <td>Ugaona Emilija</td>
+        <td>56000 RSD</td>
+        <td>77000 RSD</td>
+		<td>81000 RSD</td>
+      </tr>
+      <tr>
+        <td>Ugaona Luka1</td>
+        <td>89000 RSD</td>
+        <td>150000 RSD</td>
+		<td>180000 RSD</td>
+      </tr>
+	  <tr>
+        <td>Ugaona Salonac 2</td>
+        <td>220000 RSD</td>
+        <td>350000 RSD</td>
+		<td>420000 RSD</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <div class="container">
+  <h2>Kuhinje</h2>          
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+		<th>Naziv</th>
+         <th>210-125-86 - hrast</th>
+        <th>350-65-450 - Iverica</th>
+		<th>500-120-500 - Puno drvo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+   <td>Kuhinja br 1</td>
+        <td>17000 RSD</td>
+        <td>25000 RSD</td>
+		<td>22000 RSD</td>
+      </tr>
+      <tr>
+        <td>Kuhinja br 2</td>
+        <td>21000 RSD</td>
+        <td>32000 RSD</td>
+		<td>26000 RSD</td>
+      </tr>
+      <tr>
+        <td>Kuhinja br 3</td>
+        <td>21000 RSD</td>
+        <td>25000 RSD</td>
+		<td>22000 RSD</td>
+      </tr>
+	  <tr>
+        <td>Kuhinja br 4</td>
+        <td>23200 RSD</td>
+        <td>35000 RSD</td>
+		<td>32000 RSD</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<iframe width="1100" height="600" src="https://www.youtube.com/embed/AOnkLwlFU-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+	<h2 style="text-align:center">Izdvajama iz ponude</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="img/kuhinja1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/kuhinja2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/kuhinja3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/kuhinja4.jpg"style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/kuhinja1.jpg"  style="width:100%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/kuhinja2.jpg" style="width:100%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+       <img src="img/kuhinja3.jpg" alt="Chicago" style="width:100%;">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+       <img src="img/kuhinja4.jpg" alt="Chicago" style="width:100%;">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	
+	
+	<section id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h1>Lav Namestaj</h1>
+            <ul>
+              <li> <i class="glyphicon glyphicon-ok"></i>Vrhunski nameštaj</li>
+              <li> <i class="glyphicon glyphicon-ok"></i> visoki kvalitet,izrada po želji i meri kupca</li>
+              <li> <i class="glyphicon glyphicon-ok"></i>Evropski i svetski standard,štofovi iz uvoza</li>
+              <li> <i class="glyphicon glyphicon-ok"></i>Dostava i montaža</li>
+			  <li> <i class="glyphicon glyphicon-ok"></i>Nasmejano i uvek dobro raspolozeno osoblje</li>
+			  <li> <i class="glyphicon glyphicon-ok"></i>Porodicna firma, prema kupcima se ophodimo kao prema clanovima porodice</li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+            <img class="big-logo" src="img/logo2.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+			<center>Design by Menadzeri FON</center>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
